@@ -62,59 +62,7 @@ namespace Infoplus.Model
                 this.Sku = Sku;
             }
             // to ensure "ItemAccountCodeId" is required (not null)
-            if (ItemAccountCodeId == null)
-            {
-                throw new InvalidDataException("ItemAccountCodeId is a required property for OrderLine and cannot be null");
-            }
-            else
-            {
-                this.ItemAccountCodeId = ItemAccountCodeId;
-            }
-            // to ensure "ItemLegacyLowStockContactId" is required (not null)
-            if (ItemLegacyLowStockContactId == null)
-            {
-                throw new InvalidDataException("ItemLegacyLowStockContactId is a required property for OrderLine and cannot be null");
-            }
-            else
-            {
-                this.ItemLegacyLowStockContactId = ItemLegacyLowStockContactId;
-            }
-            // to ensure "ItemMajorGroupId" is required (not null)
-            if (ItemMajorGroupId == null)
-            {
-                throw new InvalidDataException("ItemMajorGroupId is a required property for OrderLine and cannot be null");
-            }
-            else
-            {
-                this.ItemMajorGroupId = ItemMajorGroupId;
-            }
-            // to ensure "ItemSubGroupId" is required (not null)
-            if (ItemSubGroupId == null)
-            {
-                throw new InvalidDataException("ItemSubGroupId is a required property for OrderLine and cannot be null");
-            }
-            else
-            {
-                this.ItemSubGroupId = ItemSubGroupId;
-            }
-            // to ensure "ItemSummaryCodeId" is required (not null)
-            if (ItemSummaryCodeId == null)
-            {
-                throw new InvalidDataException("ItemSummaryCodeId is a required property for OrderLine and cannot be null");
-            }
-            else
-            {
-                this.ItemSummaryCodeId = ItemSummaryCodeId;
-            }
-            // to ensure "FulfillmentChannel" is required (not null)
-            if (FulfillmentChannel == null)
-            {
-                throw new InvalidDataException("FulfillmentChannel is a required property for OrderLine and cannot be null");
-            }
-            else
-            {
-                this.FulfillmentChannel = FulfillmentChannel;
-            }
+    
             this.OrderedQty = OrderedQty;
             this.OrderAssemblyInstructions = OrderAssemblyInstructions;
             this.ItemProductCodeId = ItemProductCodeId;

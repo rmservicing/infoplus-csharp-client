@@ -2,11 +2,11 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <!-- The identifier that must be unique within the hosting gallery -->
-        <id>$id$</id>
+        <id>Rms.InfoPlusApiClient.Beta</id>
         <title>Swagger Library</title>
 
         <!-- The package version number that is used when resolving dependencies -->
-        <version>$version$</version>
+        <version>0.0.0.1</version>
 
         <!-- Authors contain text that appears directly on the gallery -->
         <authors>$author$</authors>
